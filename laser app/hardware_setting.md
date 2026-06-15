@@ -1,5 +1,5 @@
 # 🛡️ SHIELDGUARD Live App MONITORING SYSTEM - HARDWARE SETTINGS
-======================================================================
+
 Document Version : v1.0
 Target Platform  : ESP8266 Architecture (NodeMCU v1.0 / ESP-01 Modules)
 Primary Objective: Real-time sensor telemetry and cloud-linked physical alarming
@@ -35,5 +35,4 @@ B. Active Electronic Buzzer Module
 - Power Source Limitation: The ESP8266 chip functions strictly on a 3.3V logic threshold level.
 - Device Identity Matrix: The microcontroller automatically reads its factory ID using `ESP.getChipId()`.
 - Signal Calibration: The software samples the A0 analog port every 400 milliseconds.
-======================================================================
 """
